@@ -1,0 +1,306 @@
+:root {
+    --my_color: #428e9b;
+    /* --my_color: #258b7d; */
+
+  }
+
+html{
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+ul {
+    list-style: none;
+}
+._btn{
+    background-color: var(--my_color);
+    /* display: inline-block; */
+    padding-bottom: 27px;
+    border-radius: 10px;
+    text-align: center;
+    color:white;
+    width: 150px;
+}
+._container{
+
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 16px;
+    padding-right: 16px;
+
+}
+.header{
+    background-color: rgba(0, 0, 0, 0.249);
+    height: 50px;
+}
+.header__content{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    align-items: center;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin:0;
+    /* background-color: rgb(0, 0, 0); */
+
+}
+
+header {
+    flex: 0 0 auto;
+    height: 50px;
+    color:white;
+    background-color: rgb(234, 234, 234);
+
+}
+
+.header_link{
+    color: var(--my_color);
+}
+
+.header_login {
+    color: var(--my_color);
+
+}
+.header_entrance_registr{
+}
+.header_email_logout{
+
+}
+.exit {
+    margin-left: 30px;
+}
+.registr {
+    margin-left: 30px;
+}
+.errorLog{
+    color: red;
+}
+.img-svg{
+    fill:white;
+    color: white;
+}
+
+
+
+
+
+.main-content{
+
+    flex: 1 0 auto;
+
+    background-color: rgb(234, 234, 234);
+}
+.main-content_wrapper{
+    /* background-color: rgb(255, 255, 255); */
+    height: 100%;
+    padding-top: 10px;
+
+}
+
+.main-histories{
+    background-color: rgb(226, 225, 225);
+    padding: 30px 10px;
+    margin-bottom: 20px;
+
+}
+.main-histories a{
+    color: black;
+
+}
+
+.main-histories__title {
+
+}
+h2.main-histories__title_text{
+
+
+}
+.title{
+    background-color: rgb(255, 255, 255);
+    padding:15px 50px;
+
+    margin: 0 100px 20px 100px;
+    text-align: center;
+}
+.main-add{
+    background-color: rgb(226, 225, 225);
+
+    padding: 30px 10px;
+    margin-bottom: 20px;
+}
+.main-add__title{
+
+}
+
+.main-add__link {
+    text-align: center;
+}
+.main-add__link p {
+    background-color: var(--my_color);
+    display: inline-block;
+    padding: 5px 20px;
+    border-radius: 10px;
+    text-align: center;
+    color:white;
+}
+.main-add__link p a{
+    color:white;
+}
+
+
+
+
+
+.user-histories{
+    background-color: rgb(226, 225, 225);
+    padding: 30px 10px;
+    margin-bottom: 20px;
+}
+
+
+
+
+.history-update{
+    background-color: rgb(226, 225, 225);
+    padding: 30px 10px;
+    margin-bottom: 20px;
+    height: 100%;
+}
+
+
+
+
+footer{
+    flex: 0 0 auto;
+    height: 100px;
+    color:white;
+    background-color: rgb(234, 234, 234);
+}
+
+
+.footer{
+    background-color: rgba(0, 0, 0, 0.249);
+    height: 100px;
+}
+
+p {
+    color:rgb(0, 0, 0);
+    margin: 0;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    /* height: 600px; */
+    align-items: center;
+}
+
+label{
+    color:rgb(0, 0, 0);
+    margin: 5px;
+}
+
+input {
+    width: 400px;
+    height: 30px;
+    margin-bottom:15px;
+}
+
+.error_message{
+    color: red;
+}
+
+
+
+.add-history__title{
+    vertical-align: middle;
+
+    text-align: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+
+p.success {
+    color: green;
+    text-align: center;
+}
+
+
+
+
+table {
+    margin: 0 auto;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 14px;
+    border-radius: 10px;
+    border-spacing: 0;
+    text-align: center;
+    }
+    th {
+    background: var(--my_color);
+    /* background: #258b7d; */
+    color: white;
+    text-shadow: 0 1px 1px #2D2020;
+    padding: 10px 20px;
+    }
+    th, td {
+    border-style: solid;
+    border-width: 0 1px 1px 0;
+    border-color: white;
+    }
+    th:first-child, td:first-child {
+    text-align: left;
+    }
+    th:first-child {
+    border-top-left-radius: 10px;
+    }
+    th:last-child {
+    border-top-right-radius: 10px;
+    border-right: none;
+    }
+    td {
+    padding: 10px 20px;
+    background: #eaeaea;
+    }
+    tr:last-child td:first-child {
+    border-radius: 0 0 0 10px;
+    }
+    tr:last-child td:last-child {
+    border-radius: 0 0 10px 0;
+    }
+    tr td:last-child {
+    border-right: none;
+    }
+
+
+    i{
+        height: 20px;
+        width: 20px;
+    }
+    .fa-house{
+        font-size: 40px;
+        color: var(--my_color) !important;
+    }
+
+    /* doing some job on main branch */
+    /* doing some job on main branch_2 */
+
+    .moderator-table {
+        position: absolute !important;
+        left:0px !important;
+    }
+    /* my first commit
+
+    /* doin some job fo fix bug */
+    /* doin some job fo fix bug2 */
+    /* doin some job fo fix bug3 */
